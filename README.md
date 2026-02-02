@@ -80,10 +80,7 @@ This EMA update stabilizes training and mitigates noise accumulation.
 python train_baseline.py --year 2015 --scanner Digital_Persona --exp_name baseline
 ```
 
-### Hard Sample Mining Only  
-```
-python train_hardsample.py --year 2015 --scanner Digital_Persona --exp_name hardsample
-```
+
 
 ### EasyHard-FSD (Proposed Method)  
 ```
