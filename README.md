@@ -73,23 +73,33 @@ After student optimization, the teacher is updated using:
 This EMA update stabilizes training and mitigates noise accumulation.
 
 ---
-
 ## 🚀 Usage  
 
 ### Baseline Training  
+```
 python train_baseline.py --year 2015 --scanner Digital_Persona --exp_name baseline
+```
 
 ### Hard Sample Mining Only  
+```
 python train_hardsample.py --year 2015 --scanner Digital_Persona --exp_name hardsample
+```
 
 ### EasyHard-FSD (Proposed Method)  
+```
 python train_our.py --year 2015 --scanner Digital_Persona --exp_name easyhard
+```
 
 ### Evaluation (ACE)  
+```
 python evaluate.py --year 2015 --scanner Digital_Persona --method our --exp_name easyhard
+```
 
 ### Grad-CAM Visualization  
+```
 python heatmap.py --year 2015 --scanner Digital_Persona --method our --exp_name easyhard
+```
+
 
 ---
 
