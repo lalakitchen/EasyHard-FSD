@@ -10,7 +10,7 @@
 ---
 ## 👥 Authors  
 
-**Wenny Ramadha Putri***, **Farchan Raswa Hakim***, Bach-Tung Pham, Shang-Kuan Chen, Chung-I Huang, Kuo-Chen Li, Shih-Lun Chen, **Jia-Ching Wang†**
+**Wenny Ramadha Putri***, **Farchan Hakim Raswa***, Bach-Tung Pham, Shang-Kuan Chen, Chung-I Huang, Kuo-Chen Li, Shih-Lun Chen, **Jia-Ching Wang†**
 
 \* Co-first authors  † Corresponding author
 
