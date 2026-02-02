@@ -33,20 +33,18 @@ The framework is designed for **robust fingerprint spoof detection**, **cross-sc
 
 
 
-## 📂 Repository Structure  
+## 📂 Repository Structure
 
-.
-├── train_baseline.py        # Baseline training (no hard mining, no KD, no EMA)  
-├── train_hardsample.py      # Baseline + hard sample mining only  
-├── train_our.py             # EasyHard-FSD (HMM + KD + EMA teacher)  
-├── evaluate.py              # ACE evaluation (FAR / FRR)  
-├── heatmap.py               # Grad-CAM visualization  
-├── utils/  
-│   └── ImageGenerator.py    # Data utilities  
-├── checkpoint/              # Saved model checkpoints  
-└── README.md  
+├── train_baseline.py        # Baseline training (no hard mining, no KD, no EMA)
+├── train_hardsample.py      # Baseline + hard-sample mining
+├── train_our.py             # EasyHard-FSD (HMM + KD + EMA teacher)
+├── evaluate.py              # ACE evaluation (FAR / FRR)
+├── heatmap.py               # Grad-CAM visualization
+├── utils/
+│   └── ImageGenerator.py    # Data utilities
+├── checkpoint/              # Saved model checkpoints
+└── README.md
 
----
 
 ## 🧠 Method Summary  
 
