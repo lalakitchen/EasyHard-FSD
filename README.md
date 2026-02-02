@@ -18,7 +18,7 @@
 
 ## 📌 Overview  
 
-This repository contains the official implementation of **EasyHard-FSD**, a fingerprint presentation attack detection (PAD) framework that progressively learns from **easy samples to hard samples**.
+This repository contains the official implementation of **EasyHard-FSD**, a fingerprint liveness detection framework that progressively learns from **easy samples to hard samples**.
 
 The proposed method integrates:
 
@@ -31,18 +31,7 @@ The framework is designed for **robust fingerprint spoof detection**, **cross-sc
 
 ---
 
-## ✨ Key Features  
 
-- Baseline fingerprint PAD training  
-- Hard sample mining (η-based)  
-- Teacher–student training loop  
-- Knowledge distillation with temperature scaling  
-- EMA-stabilized teacher update  
-- ACE evaluation (FAR / FRR)  
-- Grad-CAM heatmap visualization  
-- Clean experimental separation for fair comparison  
-
----
 
 ## 📂 Repository Structure  
 
@@ -55,7 +44,6 @@ The framework is designed for **robust fingerprint spoof detection**, **cross-sc
 ├── utils/  
 │   └── ImageGenerator.py    # Data utilities  
 ├── checkpoint/              # Saved model checkpoints  
-├── Visualizations_hard/     # Grad-CAM outputs  
 └── README.md  
 
 ---
@@ -63,7 +51,7 @@ The framework is designed for **robust fingerprint spoof detection**, **cross-sc
 ## 🧠 Method Summary  
 
 ### 1. Baseline Training  
-A fingerprint PAD model is trained using all available training samples without curriculum learning.
+A fingerprint model is trained using all available training samples without curriculum learning.
 
 ### 2. Hard Sample Mining (HMM)  
 Samples are ranked by classification loss, and the top **η% hardest samples** are selected for focused learning.
